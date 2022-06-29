@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+img{
+  vertical-align: middle;
+}
+body{
+  position: relative;
+  font-family: 'Public Sans';
+  font-style:normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000;
+}
+h1, h2, h3, h4, h5, h6, ul, p{
+   margin: 0px;
+   padding: 0px;
+}
