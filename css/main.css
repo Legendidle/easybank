@@ -479,6 +479,8 @@ h1, h2, h3, h4, h5, h6, ul, p {
 
 @media only screen and (max-width: 400px) {
   .header {
+    max-width: 327px;
+    width: 100%;
     padding-top: 22px;
     padding-bottom: 22px;
   }
@@ -550,6 +552,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
   }
 
   .intro__img {
+    display: block;
     position: none;
     width: 327px;
     height: 402px;
